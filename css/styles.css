@@ -14,13 +14,18 @@ body {
     }
     /* Logo */
     .list {
+        padding: 0;
+        margin: 0;
         list-style: none;
     }
+    
+    
     .container {
         background-color: var(--primary-white-color);
-        max-width: 1200px;
+        max-width: 1230px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin: 0 auto;
-        padding: 0 15px;
     }
 .logo-link {
     color: var(--accent-color) ;
@@ -29,7 +34,7 @@ body {
         line-height: 1.2;
         letter-spacing: 0.03em;
         text-decoration: none;
-        padding: 80px;
+        
 }
  .logo-link:hover,
  .logo-link:focus,
@@ -52,6 +57,7 @@ body {
         text-decoration: none;
         
   }
+
     .site-nav .link:hover ,
     .site-nav .link:focus {
         color: var(--accent-color);
@@ -84,6 +90,7 @@ body {
     /* Hero */
     .hero {
     background-color: #2F303A;
+        margin-bottom: 94px;
             color: var(--primary-white-color);
             font-weight: 900;
             font-size: 44px;
@@ -99,8 +106,13 @@ body {
             text-align: center;
             letter-spacing: 0.06em;
             text-transform: uppercase;
+            margin-bottom: 30px;
     }
+    /* Button-1 */
         .button-order {
+            border-radius: 4px;
+            padding: 10px 32px;
+            display: inline-block;
             color: var(--primary-white-color);
             background-color: var(--accent-color);
             width: 216px;
@@ -110,26 +122,9 @@ body {
             font-size: 16px;
             line-height: 1.9;
             letter-spacing: 0.06em;
+            text-align: center;
+            border: 1px solid transparent;
         }
-                /* Button */
-        .button {
-        width: 216px;
-        height: 50px;
-        left: 692px;
-        top: 430px;
-        background: #2196F3;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-        color: var(--primary-white-color);
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.9;
-
-    
-        }
-
-        
-        
         /* Section */
         .title {
                 color: var(--title-text-color);
@@ -138,6 +133,7 @@ body {
                 line-height: 1.14;
                 letter-spacing: 0.03em;
                 text-transform: uppercase;
+                margin-bottom: 10px;
         }
         .teachers-title {
                 color: var(--title-text-color);
@@ -145,6 +141,10 @@ body {
                 font-size: 16px;
                 line-height: 1.18;
                 letter-spacing: 0.03em;
+        }
+        .section-title {
+            margin-top: 118px;
+            margin-bottom: 94px;
         }
         .section .section-title {
             color: var(--title-text-color);
@@ -237,6 +237,9 @@ body {
 
 /* Button */
 .button {
+    min-width: 73px;
+    border-radius: 4px;
+    padding: 6px 22px;
     color: #212121;
     font-family: Roboto;
     background-color: var(--primary-white-color);
@@ -246,7 +249,9 @@ body {
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
-    
+    text-align: center;
+    border: 1px solid transparent;
+    display: inline-block;
 }
 
 
