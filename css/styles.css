@@ -16,6 +16,12 @@ body {
     .list {
         list-style: none;
     }
+    .container {
+        background-color: var(--primary-white-color);
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
 .logo-link {
     color: var(--accent-color) ;
     font-family: Raleway, sans-serif;
@@ -23,6 +29,7 @@ body {
         line-height: 1.2;
         letter-spacing: 0.03em;
         text-decoration: none;
+        padding: 80px;
 }
  .logo-link:hover,
  .logo-link:focus,
@@ -43,6 +50,7 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;
         text-decoration: none;
+        
   }
     .site-nav .link:hover ,
     .site-nav .link:focus {
