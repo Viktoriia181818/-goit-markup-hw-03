@@ -233,13 +233,7 @@ body {
                 text-transform: uppercase;
                 margin-bottom: 10px;
         }
-        .teachers-title {
-                color: var(--title-text-color);
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.18;
-                letter-spacing: 0.03em;
-        }
+        
         .section-title {
             margin-top: 118px;
             margin-bottom: 94px;
@@ -277,7 +271,7 @@ body {
 
                   /* Info team*/
 
-    .team .item:not(:last-child) {
+    .team .item-people:not(:last-child) {
      margin-right: 30px;
          }
                 
@@ -303,6 +297,25 @@ body {
     .text {
     margin-bottom: 124px;
         }
+                .list-team {
+                    margin: 0px;
+                    padding: 0px;
+                    justify-content: center;
+                    display: flex;
+                    gap: 30px;
+                    padding-bottom: 94px;
+                    padding-left: 200px;
+                    padding-right: 200px;
+                    
+                }
+                       .item-people {
+                            background-color: #FFFFFF;
+                            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+                            border-radius: 0px 0px 4px 4px;
+                        }
+
+                        
+                    
         
         /* Footer */
                 .footer {
