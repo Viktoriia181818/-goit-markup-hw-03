@@ -4,7 +4,7 @@
     --accent-color: #2196F3;
     --primary-white-color: #FFFFFF;
     --primary-black-color: #000000;
-    --background-footer-color:
+    --background-footer-color:#2F303A;
     
 }
 
@@ -21,9 +21,7 @@ body {
         margin: 0;
         list-style: none;
     }
-    .site-nav .link {
-        gap: 30;
-    }
+    
     
         /* Container */
         .container {
@@ -262,75 +260,60 @@ body {
         }
         
         /* Footer */
-        .footer {
-            background-color: var(--background-footer-color);
-            padding: 60px 0;
-        }
-    
-        .footer .logo-link {
-            display: inline-block;
-            margin-bottom: 20px;
-        }
-    
-        .footer .logo-headers {
-            color: #ffffff;
-            text-decoration: none;
-        }
-    .address-footer,
-    .tel-footer {
-    font-style:normal;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-}
+                .footer {
+                    background-color: var(--background-footer-color);
+                    padding: 60px 0;
+                }
 
-    .tel-footer:hover,
-    .tel-footer:focus,
-    .address-footer:hover,
-    .address-footer:focus {
-    color: var(--accent-color);
-}
-    .info {
-        color: rgba(255, 255, 255, 0.6);     
-    }
-    .direction{
-        text-decoration: none;
-            color: var(--primary-white-color);
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.7;
-            letter-spacing: 0.03em;
-    }
-   
-        .direction:hover,
-        .direction:focus {
-            color: var(--accent-color);
-        }
-.logo-footer, .direction
- {
-    background-color: #2F303A;
-    color: var(--primary-white-color);
- }
+                .footer .logo-link {
+                    display: block;
+                    margin-bottom: 20px;
+                }
 
- .logo-footer {
-    color: var(--accent-color);
-        font-family: Raleway, sans-serif;
-        font-size: 26px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
- }
- 
- .logo-headers {
-    color: var(--primary-white-color);
-    text-decoration: none;
- }
- .logo-headers:hover,
- .logo-headers:focus {
-    color: var(--accent-color);
- }
+                .footer .logo-headers {
+                    color: #ffffff;
+                    text-decoration: none;
+                        }
+
+                                .addres-link {
+                                    color: #ffffff;
+                                    display:block;
+                                    margin-bottom: 9px;
+                
+                                    font-style: normal;
+                                    text-decoration: none;
+                                    font-size: 14px;
+                                    line-height: 1.7;
+                                }
+                
+                                .addres-link:hover,
+                                .addres-link:focus {
+                                    color: var(--accent-color);
+                                    font-style: normal;
+                                }
+                
+                                .contact-footer .link {
+                                    color: rgba(255, 255, 255, 0.6);
+                
+                                    text-decoration: none;
+                                    font-style: normal;
+                                    font-size: 14px;
+                                    line-height: 1.7;
+                                }
+                
+                                .contact-footer .item:not(:last-child) {
+                                    margin-bottom: 9px;
+                                }
+                
+                
+                                .contact-footer .link.link:hover,
+                                .contact-footer .link.link:focus {
+                                    color: var(--accent-color);
+                                    font-style: normal;
+                                }
+                                .item .link {
+                                    
+                                }
 
  /* Portfolio */
 
@@ -428,3 +411,4 @@ body {
     line-height: 1.7;
 
 }
+
