@@ -68,7 +68,7 @@ body {
         padding: auto;
 }
 .header {
-    border-bottom: #212121;
+    border: 1px solid #ECECEC;
 }
   /* Site-nav */
   .site-nav {
@@ -181,13 +181,13 @@ body {
     /* Hero */
     .hero {
             background-color: #2F303A;
+            border: 1px solid #ECECEC;
             padding: 200px 0;
             display: block;
                 height: 600px;
             max-width: 1600px;
             margin-left: auto;
             margin-right: auto;
-            margin-bottom: 94px;
             color: var(--primary-white-color);
             font-weight: 900;
             font-size: 44px;
@@ -237,10 +237,8 @@ body {
                 margin-bottom: 10px;
         }
         
-        .section-title {
-            margin-top: 118px;
+
         
-        }
         .section .section-title {
             color: var(--title-text-color);
                     font-weight: 700;
@@ -264,16 +262,16 @@ body {
                     justify-content: center;
                 }
         
-                .work-title {
-                    margin-bottom: 50px;
-                }
         
                 .work .item:not(:last-child) {
                     margin-right: 30px;
                 }
 
                   /* Info team*/
-                  
+                  .section-team {
+                    background-color: #F5F4FA;
+                  }
+
              .team {
                 display: flex;
                 justify-content: center;
@@ -288,23 +286,24 @@ body {
                         text-align: center;
                         letter-spacing: 0.03em;
                 }
-                .team-title {
+                .description-title {
                 color: var(--title-text-color);
+                padding-top: 30px;
                 font-weight: 500;
                 font-size: 16px;
-                line-height: 1.18;
+                line-height: 1.1875;
                 text-align: center;
                 letter-spacing: 0.03em;
-                 }
+                }
                 .description{
-                 color: #757575;
-                font-size: 16px;
-                line-height: 1.18;
-                 margin: 0px;
-                text-align: center;
-                letter-spacing: 0.03em;
-                padding-bottom: 30px;
+                    color: #757575;
+                font-weight: 400;
                 padding-top: 10px;
+                margin-bottom: 30px;
+                    font-size: 16px;
+                    line-height: 1.1875;
+                    text-align: center;
+                    letter-spacing: 0.03em;
                 }
                 .team-people {
                 background-color: #FFFFFF;
