@@ -275,7 +275,9 @@ body {
                   .section-team {
                     background-color: #F5F4FA;
                   }
-
+                  .description {
+                    padding: 20px 24px;
+                  }
              .team {
                 display: flex;
                 justify-content: center;
@@ -290,7 +292,7 @@ body {
                         text-align: center;
                         letter-spacing: 0.03em;
                 }
-                .description-title {
+                .desc-title {
                 color: var(--title-text-color);
                 padding-top: 30px;
                 font-weight: 500;
@@ -299,7 +301,7 @@ body {
                 text-align: center;
                 letter-spacing: 0.03em;
                 }
-                .description{
+                .desc{
                     color: #757575;
                 font-weight: 400;
                 padding-top: 10px;
@@ -393,12 +395,12 @@ body {
      color: #FFFFFF;
      background-color: #2196F3;
  }
-  .portfolio .img {
+  .portfolio  {
       display: block;
   }
 
   .signature {
-      padding-bottom: 24px;
+      padding-bottom: 20px;
       border-left: 1px solid #EEEEEE;
       border-right: 1px solid #EEEEEE;
       border-bottom: 1px solid #EEEEEE;
@@ -453,9 +455,6 @@ body {
 
   }
   
-
-  
-
   .portfolio .title {
       color: var(--title-text-color);
       align-items: center;
