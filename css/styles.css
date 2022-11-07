@@ -294,7 +294,6 @@ body {
                 }
                 .desc-title {
                 color: var(--title-text-color);
-                padding-top: 30px;
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 1.1875;
@@ -400,7 +399,7 @@ body {
   }
 
   .signature {
-      padding-bottom: 20px;
+      padding-bottom: 20px 24px;
       border-left: 1px solid #EEEEEE;
       border-right: 1px solid #EEEEEE;
       border-bottom: 1px solid #EEEEEE;
